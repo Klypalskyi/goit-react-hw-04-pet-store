@@ -1,0 +1,51 @@
+.petsList {
+  padding-top: 90px;
+  display: flex;
+  width: 70%;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+.petCard {
+  width: 26%;
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 10px 0 0 0;
+  box-shadow: 10px 10px 22px -4px rgba(0, 0, 0, 0.33);
+  height: 380px;
+  margin-bottom: 25px;
+  transition: all 0.4s;
+}
+
+.petLink {
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+}
+
+img {
+  width: 70%;
+  margin-bottom: 10px;
+  justify-self: flex-start;
+}
+
+.petName {
+  margin: 0;
+  color: #333;
+  justify-self: end;
+  transition: all 0.4s;
+}
+
+.petCard:hover {
+  transform: scale(1.1);
+}
+
+.petCard:hover .petName {
+  color: #f36e50;
+}

@@ -1,0 +1,61 @@
+.homePage__container {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 50px);
+}
+
+.homePage__title {
+  font-size: 48px;
+  background-image: linear-gradient(275deg, #333333, #28692d, #f36e50);
+  background-size: 600% 600%;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: anim 6s ease infinite;
+  -moz-animation: anim 6s ease infinite;
+  animation: anim 6s ease infinite;
+}
+
+@-webkit-keyframes anim {
+  0% {
+    background-position: 0% 47%;
+  }
+
+  50% {
+    background-position: 100% 54%;
+  }
+
+  100% {
+    background-position: 0% 47%;
+  }
+}
+
+@-moz-keyframes anim {
+  0% {
+    background-position: 0% 47%;
+  }
+
+  50% {
+    background-position: 100% 54%;
+  }
+
+  100% {
+    background-position: 0% 47%;
+  }
+}
+
+@keyframes anim {
+  0% {
+    background-position: 0% 47%;
+  }
+
+  50% {
+    background-position: 100% 54%;
+  }
+
+  100% {
+    background-position: 0% 47%;
+  }
+}
